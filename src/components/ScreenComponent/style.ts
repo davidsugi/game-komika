@@ -11,4 +11,6 @@ export const ScreenWrapper = styled.div`
     flex: 8;
     background-image: url(${(props: IScreenWrapper) => props.src});
     background-size: cover;
+    display: flex;
+    position: relative;
 `;
