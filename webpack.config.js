@@ -13,7 +13,7 @@ const config = {
     filename: "bundle.js",
   },
   resolve: {
-    extensions: [".js", ".jsx", ".ts", ".tsx"],
+    extensions: [".js", ".jsx", ".ts", ".tsx", ".jpg", ".png", ".svg"],
   },
   module: {
     rules: [

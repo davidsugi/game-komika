@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import ConsoleComponent from '../../components/ConsoleComponent';
+import HeaderComponent from '../../components/HeaderComponent';
+import ScreenComponent from '../../components/ScreenComponent';
+import { GamePlayWrapper, LPWrapper } from './style';
 
 interface ILPProps {
     
@@ -6,9 +10,14 @@ interface ILPProps {
 
 const LP = (props:ILPProps) => {
     return (
-        <div>
-            aaa
-        </div>
+        <LPWrapper>
+            <GamePlayWrapper>
+                <HeaderComponent />
+                <ScreenComponent />
+                <ConsoleComponent />
+            </GamePlayWrapper>
+            <span>@davsugi, 2021</span>
+        </LPWrapper>
     )
 }
 
