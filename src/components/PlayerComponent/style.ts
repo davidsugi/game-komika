@@ -12,10 +12,10 @@ const anim = (to:string) => keyframes`
 export const PlayerWrapper = styled.div`
     background-image: url(${(props: IPlayerWrapper) => props.src});
     background-size: cover;
-    width: 55vw;
-    height: 71vw;
+    width: 59vw;
+    height: 83vw;
     position: absolute;
-    animation: ${anim("105vw")} 1.5s infinite steps(2);
+    animation: ${anim("123vw")} 1.5s infinite steps(2);
 
     @media (min-width: 500px) {
         width: 300px;
