@@ -1,6 +1,5 @@
 import React from 'react'
 import { DateComp, HeaderWrapper, MoneyComp, TimeComp, WeatherComp } from './style';
-import sun from '../../assets/sun.jpg';
 import moon from '../../assets/moon.jpg';
 import wood from '../../assets/wood.png';
 
