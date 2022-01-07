@@ -1,4 +1,4 @@
-import LP from './containers/LP/index.tsx'
+import LP from './containers/LP'
 import './App.css';
 
 function App() {
