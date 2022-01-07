@@ -13,4 +13,6 @@ export const ScreenWrapper = styled.div`
     background-size: cover;
     display: flex;
     position: relative;
+    align-items: end;
+    justify-content: center;
 `;
