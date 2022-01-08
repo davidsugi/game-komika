@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Bit';
+  src: local('Bit'), url(./font/8-BIT.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Watch';
+  src: local('Watch'), url(./font/Watch.ttf) format('truetype');
+}
