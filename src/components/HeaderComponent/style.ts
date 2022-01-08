@@ -54,14 +54,14 @@ export const DateComp = styled.div`
   color: white;
   font-size: 4vw;
   @media (min-width: 500px) {
-          font-size: 23px;
+    font-size: 23px;
   }
 `;
 
 export const TimeComp = styled.div`
   width: 12vw;
   background: black;
-  color: white;
+  color: green;
   align-items: center;
   justify-content: center;
   font-family: Watch, Arial, serif !important;

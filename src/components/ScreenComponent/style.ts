@@ -15,4 +15,8 @@ export const ScreenWrapper = styled.div`
     position: relative;
     align-items: end;
     justify-content: center;
+    margin-bottom: 11vw;
+    @media (min-width: 500px) {
+      margin-bottom: 56px;
+    }
 `;
