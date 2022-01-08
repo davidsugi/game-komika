@@ -21,6 +21,7 @@ export const ConsoleWrapper = styled.div`
     align-items: center;
     max-width: 470px;
     justify-content: space-between;
+    background: linear-gradient(0deg, rgba(44,80,255,1) 0%, rgba(24,27,121,1) 63%);
 `;
 
 export const ButtonWrapper = styled.div`
